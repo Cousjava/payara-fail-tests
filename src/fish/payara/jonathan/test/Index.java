@@ -33,6 +33,8 @@ public class Index extends ExtendedServlet {
 		out.append("Served at: ").println(request.getContextPath());
 		out.println("<a href=\"/webfail/OutOfMem\">Out of Memory Error</a>&nbsp;");
 		out.println("<a href=\"/webfail/TMC\">Too Many Connections</a>&nbsp;");
+		out.println("<a href=\"/webfail/InstanceConnect\">Connect to instance</a>&nbsp;");
+		
 		footer();
 	}
 	
