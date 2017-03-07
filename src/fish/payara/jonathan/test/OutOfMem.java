@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class OutOfMem
  */
-@WebServlet("/OutOfMem")
+@WebServlet("/p1")
 public class OutOfMem extends ExtendedServlet {
 	private static final long serialVersionUID = 1L;
        

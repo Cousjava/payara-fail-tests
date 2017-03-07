@@ -22,7 +22,6 @@ public class Index extends ExtendedServlet {
     public Index() {
         super();
         title = "Payara Problems App";
-        // TODO Auto-generated constructor stub
     }
 
 	/**
@@ -31,9 +30,9 @@ public class Index extends ExtendedServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		super.doGet(request, response);
 		out.append("Served at: ").println(request.getContextPath());
-		out.println("<a href=\"/webfail/OutOfMem\">Out of Memory Error</a>&nbsp;");
-		out.println("<a href=\"/webfail/TMC\">Too Many Connections</a>&nbsp;");
-		out.println("<a href=\"/webfail/InstanceConnect\">Connect to instance</a>&nbsp;");
+		out.println("<a href=\"/webfail/p1\">Link1</a>&nbsp;");
+		out.println("<a href=\"/webfail/p2\">Link2</a>&nbsp;");
+		out.println("<a href=\"/webfail/p3\">Link3</a>&nbsp;");
 		
 		footer();
 	}

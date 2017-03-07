@@ -15,7 +15,7 @@ import javax.sql.DataSource;
 /**
  * Servlet implementation class TooManyConnections
  */
-@WebServlet({ "/TooManyConnections", "/TMC" })
+@WebServlet({ "/TooManyConnections", "/p2" })
 public class TooManyConnections extends ExtendedServlet {
 	private static final long serialVersionUID = 1L;
     

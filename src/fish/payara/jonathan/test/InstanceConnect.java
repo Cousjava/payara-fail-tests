@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class InstanceConnect
  */
-@WebServlet("/InstanceConnect")
+@WebServlet("/p3")
 public class InstanceConnect extends ExtendedServlet {
 	private static final long serialVersionUID = 1L;
        
