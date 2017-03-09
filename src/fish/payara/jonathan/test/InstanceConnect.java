@@ -22,7 +22,7 @@ public class InstanceConnect extends ExtendedServlet {
      */
     public InstanceConnect() {
         super();
-        title = "Instance Connection";
+        title = "Error 2";
     }
 
 	/**
