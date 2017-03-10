@@ -19,7 +19,7 @@ import javax.sql.DataSource;
 public class TooManyConnections extends ExtendedServlet {
 	private static final long serialVersionUID = 1L;
     
-	@Resource(name="jndi:/dsource")
+	@Resource(name="jdbc/dsource")
 	DataSource ds1;
 	
     /**
