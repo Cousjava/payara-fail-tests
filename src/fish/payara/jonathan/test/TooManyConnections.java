@@ -26,9 +26,7 @@ public class TooManyConnections extends ExtendedServlet {
      * @see HttpServlet#HttpServlet()
      */
     public TooManyConnections() {
-        super();
-        // TODO Auto-generated constructor stub
-    }
+        super();    }
 
 	/**
 	 * @throws SQLException 

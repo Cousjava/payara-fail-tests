@@ -42,16 +42,20 @@ public class OutOfMem extends ExtendedServlet {
 		MemoryUsage heap = memory.getHeapMemoryUsage();
 		
 		
-		int maxHeap = 150*1024*1024;
+		long maxHeap = 400*1024*1024;
+		long heapUsed = 0;
 		boolean cont = true;
 		while(cont){
 			
 			if (heap.getUsed() >= maxHeap){
+				heapUsed = heap.getUsed();
 				cont = false;
 			}
 			large.add("Here's some text to go in the array");
 		}
-		//out.println(large.size());
+		
+		out.println(large.size());
+		out.println("<p>The amount of heap used is " + heapUsed + "</p>");
 	}
 
 }
